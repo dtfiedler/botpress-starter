@@ -1,0 +1,31 @@
+{
+  "name": "botpress-starter",
+  "version": "1.0.0",
+  "description": "Starter botpress bot for GE Healthcare",
+  "main": "src/index.js",
+  "engines": {
+    "node": "<= 8.9"
+  },
+  "dependencies": {
+    "@botpress/analytics": "^10.31",
+    "@botpress/audience": "^10.27.1",
+    "@botpress/builtins": "^10.31",
+    "@botpress/channel-web": "^10.27.1",
+    "@botpress/nlu": "^10.31",
+    "@botpress/qna": "^10.31",
+    "@botpress/skill-choice": "^10.31",
+    "@botpress/skill-sf-liveagent": "./botpress-skill-sf-liveagent-v1.1.0.tgz",
+    "@botpress/terminal": "^10.31",
+    "botpress": "^10.31",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dylan.fiedler@ge.com",
+  "license": "AGPL-3.0"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Products",
+    "subLists": [
+      {
+        "canonicalForm": "Revolution Evo",
+        "list": ["Revo Evo"]
+      },
+      {
+        "canonicalForm": "Optima Series",
+        "list": ["Optima", "Optima Serie"]
+      },
+      {
+        "canonicalForm": "Revolution 750 HD",
+        "list": ["Revo750", "Revolution750HD", "Revolution750", "evolution 750"]
+      },
+      {
+        "canonicalForm": "Revolution ACT",
+        "list": ["Revo ACT"]
+      },
+      {
+        "canonicalForm": "Revolution CT",
+        "list": ["Revo CT"]
+      }
+    ],
+    "roles": []
+  }
+]

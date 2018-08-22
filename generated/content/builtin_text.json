@@ -1,0 +1,154 @@
+[
+  {
+    "id": "builtin_text-apzmAz",
+    "formData": {
+      "text": "Hmm, I'm not sure I understand.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-24T21:12:44.493Z"
+  },
+  {
+    "id": "builtin_text-AOkYeP",
+    "formData": {
+      "text": "Got it.",
+      "variations": [
+        "Understood."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-01T16:29:17.915Z"
+  },
+  {
+    "id": "builtin_text-ZVZetE",
+    "formData": {
+      "text": "Check out these useful guides for working with protocols:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-01T17:16:49.555Z"
+  },
+  {
+    "id": "builtin_text-KtjH1~",
+    "formData": {
+      "text": "Delete the temporal enhance series and send it again to the AW Server",
+      "variations": [
+        "Try deleting the temporal enhance series and sending it again to the AW server"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-01T17:33:14.434Z"
+  },
+  {
+    "id": "builtin_text-XL2BR2",
+    "formData": {
+      "text": "I'm sorry.",
+      "variations": [
+        "I apologize, I'm still learning.",
+        "I'm sorry, I'm still learning.",
+        "My mistake, I'm still learning."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T17:54:54.236Z"
+  },
+  {
+    "id": "builtin_text-hWV9x6",
+    "formData": {
+      "text": "A live agent will be able to chat with you shortly. ",
+      "variations": [
+        "You will be connected with a live agent shortly. If you wish to cancel, please type 'CANCEL'."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T17:57:00.580Z"
+  },
+  {
+    "id": "builtin_text-o4go~i",
+    "formData": {
+      "text": "You are now connected to a live agent. ",
+      "variations": [
+        "You are now connected with a live agent. If you wish to end the chat at any time, please type 'EXIT' or 'CANCEL'."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T17:58:17.862Z"
+  },
+  {
+    "id": "builtin_text-m_c3wI",
+    "formData": {
+      "text": "I'm sorry, no agent's are available at this time. Please try again later.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T17:59:37.376Z"
+  },
+  {
+    "id": "builtin_text-rDgWOi",
+    "formData": {
+      "text": "You have canceled your request to speak with a live agent. If you ever wish to chat directly with an agent, you can type 'AGENT' or 'Give me a human!'.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:00:34.884Z"
+  },
+  {
+    "id": "builtin_text-F2vYaE",
+    "formData": {
+      "text": "The agent has ended the chat. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:01:02.695Z"
+  },
+  {
+    "id": "builtin_text-Aq1Vlh",
+    "formData": {
+      "text": "Okay. If you ever do want to speak directly to an agent, you can type 'AGENT' or 'Give me a human!'. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:06:04.226Z"
+  },
+  {
+    "id": "builtin_text-b0tuDC",
+    "formData": {
+      "text": "Great! Anything else I can help you with?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:11:32.417Z"
+  },
+  {
+    "id": "builtin_text-N~wKB_",
+    "formData": {
+      "text": "It sounds like you are having issues with image quality.  Here are some recommended resources that may help resolve your issues.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-06T18:35:43.080Z"
+  },
+  {
+    "id": "builtin_text-WtxSpy",
+    "formData": {
+      "text": "Hi there!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-08T13:38:37.831Z"
+  },
+  {
+    "id": "builtin_text-3ZOzhE",
+    "formData": {
+      "text": " I'm not a human, but I'm happy to try and help you as best as I can!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-08T13:39:40.587Z"
+  }
+]

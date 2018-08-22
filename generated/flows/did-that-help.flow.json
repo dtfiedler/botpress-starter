@@ -1,0 +1,71 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "node-cb84",
+  "nodes": [
+    {
+      "id": "skill-639e23",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-639e23",
+      "flow": "skills/choice-639e23.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "node-6c1a"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "node-43b5"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "c1ddb7a033",
+      "name": "node-43b5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "live-agent.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XL2BR2"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "9915df9a4b",
+      "name": "node-6c1a",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "incrementHelpufulResponse {}",
+        "say #!builtin_text-b0tuDC"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "b268712723",
+      "name": "node-cb84",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-639e23"
+        }
+      ],
+      "onEnter": [
+        "incrementAskedIfHelpful {}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

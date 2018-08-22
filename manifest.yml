@@ -1,0 +1,10 @@
+---
+applications:
+- name: vscan-botpress
+  buildpack: nodejs_buildpack
+  instances: 1
+  memory: 512M
+  env:
+    BOTPRESS_PASSWORD: password
+    BOTPRESS_PORT: 8080
+    NODE_ENV: production

@@ -1,0 +1,59 @@
+{
+  "version": "0.1",
+  "startNode": "entry",
+  "skillData": {
+    "onQueuedContentId": "builtin_text-JpExd0",
+    "onStartedContentId": "builtin_text-mWOizG",
+    "cancelRegex": "^(exit|cancel|stop)( (chat|conversation|help))?$"
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "__skill-sfla--start {\"onQueuedContentId\":\"builtin_text-JpExd0\",\"onStartedContentId\":\"builtin_text-mWOizG\",\"cancelRegex\":\"^(exit|cancel|stop)( (chat|conversation|help))?$\"}"
+      ],
+      "next": [
+        {
+          "condition": "state['__skill-sfla--noagent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "state['__skill-sfla--usercancelled'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "hitl"
+        }
+      ],
+      "id": "913511",
+      "onReceive": null
+    },
+    {
+      "name": "hitl",
+      "onEnter": [],
+      "onReceive": [
+        "__skill-sfla--capture-message {\"onQueuedContentId\":\"builtin_text-JpExd0\",\"onStartedContentId\":\"builtin_text-mWOizG\",\"cancelRegex\":\"^(exit|cancel|stop)( (chat|conversation|help))?$\"}"
+      ],
+      "next": [
+        {
+          "condition": "state['__skill-sfla--noagent'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "state['__skill-sfla--usercancelled'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "state['__skill-sfla--agentended'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "state['__skill-sfla--timedout'] === true",
+          "node": "#"
+        }
+      ],
+      "id": "571911"
+    }
+  ]
+}

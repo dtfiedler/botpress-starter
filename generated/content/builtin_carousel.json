@@ -1,0 +1,56 @@
+[
+  {
+    "id": "builtin_carousel-IDFFDU",
+    "formData": [
+      {
+        "title": "Quick Help",
+        "subtitle": "Here are some resources that may be helpful",
+        "actions": [
+          {
+            "title": "Saving Protocols",
+            "action": "Open URL",
+            "url": "www.google.com"
+          },
+          {
+            "title": "Improving Image Quality",
+            "action": "Open URL",
+            "url": "www.google.com"
+          },
+          {
+            "title": "Connect with a Representative",
+            "action": "Open URL",
+            "url": "www.google.com"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-08-08T13:41:54.116Z"
+  },
+  {
+    "id": "builtin_carousel-lBctnw",
+    "formData": [
+      {
+        "title": "E-Commerce Options",
+        "actions": [
+          {
+            "title": "Finding Parts",
+            "action": "Say something"
+          },
+          {
+            "title": "Parts Return",
+            "action": "Say something"
+          },
+          {
+            "title": "Billing",
+            "action": "Say something"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-08-20T14:05:57.566Z"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": null,
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "307949a7c3",
+      "name": "entry",
+      "onEnter": [
+        "trackNewConversation {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('hello')",
+          "node": "node-8aed"
+        },
+        {
+          "condition": "true",
+          "node": "node-ed71"
+        }
+      ]
+    },
+    {
+      "id": "1f6ca994ed",
+      "name": "node-ed71",
+      "next": [
+        {
+          "condition": "true",
+          "node": "live-agent.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-apzmAz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ab7b940bab",
+      "name": "node-8aed",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WtxSpy",
+        "say #!builtin_text-3ZOzhE",
+        "say #!builtin_carousel-IDFFDU"
+      ],
+      "onReceive": []
+    }
+  ]
+}

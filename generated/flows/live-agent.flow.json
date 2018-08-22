@@ -1,0 +1,127 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "choice-56f516",
+  "nodes": [
+    {
+      "id": "4b6f2b2461",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-m_c3wI"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "end-session"
+        }
+      ]
+    },
+    {
+      "id": "skill-56f516",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-56f516",
+      "flow": "skills/choice-56f516.flow.json",
+      "next": [
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "node-4fb7"
+        },
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "sf-liveagent-92d830"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-92d830",
+      "type": "skill-call",
+      "skill": "sf-liveagent",
+      "name": "sf-liveagent-92d830",
+      "flow": "skills/sf-liveagent-92d830.flow.json",
+      "next": [
+        {
+          "caption": "No Agent Available",
+          "condition": "state['__skill-sfla--noagent'] === true",
+          "node": "entry"
+        },
+        {
+          "caption": "User Cancelled",
+          "condition": "state['__skill-sfla--usercancelled'] === true",
+          "node": "node-2090"
+        },
+        {
+          "caption": "Agent Ended",
+          "condition": "state['__skill-sfla--agentended'] === true",
+          "node": "node-508c"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "2f82d89896",
+      "name": "node-2090",
+      "next": [
+        {
+          "condition": "true",
+          "node": "end-session"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rDgWOi"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4bd32fb203",
+      "name": "node-508c",
+      "next": [
+        {
+          "condition": "true",
+          "node": "end-session"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-F2vYaE"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "cbe6f00f2a",
+      "name": "node-4fb7",
+      "next": [
+        {
+          "condition": "true",
+          "node": "end-session"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Aq1Vlh"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4ebda142b0",
+      "name": "end-session",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    }
+  ]
+}

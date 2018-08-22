@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "skill-639e23",
+      "position": {
+        "x": 85,
+        "y": 295
+      }
+    },
+    {
+      "id": "c1ddb7a033",
+      "position": {
+        "x": 360,
+        "y": 405
+      }
+    },
+    {
+      "id": "9915df9a4b",
+      "position": {
+        "x": 360,
+        "y": 235
+      }
+    },
+    {
+      "id": "b268712723",
+      "position": {
+        "x": -175,
+        "y": 310
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "skill-639e23",
+      "sourcePort": "out0",
+      "target": "9915df9a4b",
+      "points": [
+        {
+          "x": 292,
+          "y": 344
+        },
+        {
+          "x": 460,
+          "y": 229
+        }
+      ]
+    },
+    {
+      "source": "skill-639e23",
+      "sourcePort": "out1",
+      "target": "c1ddb7a033",
+      "points": [
+        {
+          "x": 292,
+          "y": 369
+        },
+        {
+          "x": 460,
+          "y": 399
+        }
+      ]
+    },
+    {
+      "source": "b268712723",
+      "sourcePort": "out0",
+      "target": "skill-639e23",
+      "points": [
+        {
+          "x": 32,
+          "y": 370
+        },
+        {
+          "x": 185,
+          "y": 289
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://d.la4-c2-phx.salesforceliveagent.com/chat",
+  "organizationId": "00Df2000001Ha6R",
+  "deploymentId": "572f2000000TSsr",
+  "buttonId": "573f2000000TW00",
+  "agentTextRenderer": "#builtin_text",
+  // Is using proxy, you need to overwrite the `bp.liveAgentProxy` object
+  // The structure is { host, port, auth: { username, password } }
+  "useProxy": false,
+  "waitAgentTimeout": "2m"
+}
