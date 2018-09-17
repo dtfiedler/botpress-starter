@@ -32,5 +32,6 @@ Additionally, training videos for creating content and adding features can be fo
 ## Botpress Contacts
 
 Main contacts for Botpress:
+
     - Sylvain Perron - sylvain@botpress.io
     - Alex Pletnov - alex@botpress.io
