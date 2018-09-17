@@ -1,4 +1,4 @@
-## Run bot
+## Installing and Running the Bot
 
 Run `npm install && npm start` to install dependencies and start your bot.
 
