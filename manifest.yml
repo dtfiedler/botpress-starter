@@ -7,4 +7,12 @@ applications:
   env:
     BOTPRESS_PASSWORD: password
     BOTPRESS_PORT: 8080
+    BOTPRESS_URL: https://vscan-botpress.run.aws-usw02-pr.ice.predix.io
     NODE_ENV: production
+    DATABASE: postgres
+    DATABASE_URL: postgres://umnfwq36o4qua5uj:2kghjikoee6gqa2vl18ofp39c@db-2413f831-09a3-4be1-b665-00b5f866c1d4.c7uxaqxgfov3.us-west-2.rds.amazonaws.com:5432/botpress_test
+    PG_DB: botpress_test
+    PG_HOST: db-2413f831-09a3-4be1-b665-00b5f866c1d4.c7uxaqxgfov3.us-west-2.rds.amazonaws.com
+    PG_PASSWORD: 2kghjikoee6gqa2vl18ofp39c
+    PG_PORT: 5432
+    PG_USER: umnfwq36o4qua5uj

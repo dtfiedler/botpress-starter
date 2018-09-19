@@ -21,9 +21,9 @@ module.exports = async bp => {
   }
 
   const webchat = {
-    botName: 'GE Cares',
+    botName: 'GE Chatbot',
     botAvatarUrl: 'https://ge-cares-01-staging.botpress.cloud/media/a9s21mjj8whnc8k9vo4c-ge-icon.png', // You can provide a URL here
-    botConvoTitle: 'GE Cares Chatbot',
+    botConvoTitle: 'GE Botpress Bot',
     botConvoDescription: "I'm a botpress bot!",
     backgroundColor: '#ffffff',
     textColorOnBackground: '#666666',
