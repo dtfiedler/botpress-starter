@@ -1,20 +1,37 @@
-## Run bot
+# Botpress Starter
+<div align="center">
+  <img src="./screenshot.jpg"/>
+</div>
 
-Run `yarn install && yarn start` to install dependencies and start your bot.
+This is a starter botpress application that includes numerous skills and built-in content types that can be reused and deployed on AWS, Heroku, or Predix.
+
+## Installing and Running the Bot
+
+Run `npm install && npm start` to install dependencies and start your bot.
 
 By default bot runs locally with web interface available at http://localhost:3000
 
-## Deploy
+## Deploying to CloudFoundry
+
+You can deploy to CloudFoundry by updating the provided [manifest.yml](./manifest.yml) file.
+
+## Deploying to Heroku or AWS
 
 Check [Heroku](https://botpress.io/docs/deploy/heroku/) and [AWS](https://botpress.io/docs/deploy/aws/) deploy tutorials to get started
+
 
 ## Development
 
 To learn more on how to work with [Botpress](https://botpress.io/) you can read [here](https://botpress.io/docs/getting_started/).
 
-## NLU (Entities)
+## Training Videos
 
-To add new list entities or products, please see the `./generated/entities/luis_closedlists.entity.json` file.
+Additionally, training videos for creating content and adding features can be found on Box [here](https://ge.box.com/s/7b7rn9124f6qb775vebx77ku6asrk0a8).
 
-## Ghost Sync
-To ghost sync, please run `./node_modules/.bin/botpress ghost-sync https://ge-cares-01-staging.botpress.cloud` in the root directory of this project
+
+## Botpress Contacts
+
+Main contacts for Botpress:
+
+    - Sylvain Perron - sylvain@botpress.io
+    - Alex Pletnov - alex@botpress.io
