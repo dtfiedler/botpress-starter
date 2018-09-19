@@ -14,7 +14,6 @@
     "@botpress/nlu": "^10.31",
     "@botpress/qna": "^10.31",
     "@botpress/skill-choice": "^10.31",
-    "@botpress/skill-sf-liveagent": "./botpress-skill-sf-liveagent-v1.1.0.tgz",
     "@botpress/terminal": "^10.31",
     "botpress": "^10.31",
     "jsdoc-api": "^4.0.3",

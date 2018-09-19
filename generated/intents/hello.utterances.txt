@@ -1,13 +1,6 @@
-hi
-hi there
-good day!
-good morning
-holla
-bonjour
-hey there
-hi bot
-hey bot
-hey robot
-hey!
-hi
+Good day
+Good afternoon
+Good morning
+Hi
+hello
 hello

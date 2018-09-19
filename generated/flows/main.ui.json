@@ -3,68 +3,31 @@
     {
       "id": "307949a7c3",
       "position": {
-        "x": 190,
-        "y": 110
+        "x": 125,
+        "y": 180
       }
     },
     {
-      "id": "1f6ca994ed",
+      "id": "95e15d1c13",
       "position": {
-        "x": 490,
-        "y": 280
-      }
-    },
-    {
-      "id": "ab7b940bab",
-      "position": {
-        "x": 500,
-        "y": 25
+        "x": 465,
+        "y": 20
       }
     }
   ],
   "links": [
     {
       "source": "307949a7c3",
-      "sourcePort": "out1",
-      "target": "1f6ca994ed",
-      "points": [
-        {
-          "x": 397,
-          "y": 195
-        },
-        {
-          "x": 590,
-          "y": 274
-        }
-      ]
-    },
-    {
-      "source": "ab7b940bab",
       "sourcePort": "out0",
-      "target": "307949a7c3",
+      "target": "95e15d1c13",
       "points": [
         {
-          "x": 707,
-          "y": 171
+          "x": 332,
+          "y": 216
         },
         {
-          "x": 290,
-          "y": 104
-        }
-      ]
-    },
-    {
-      "source": "307949a7c3",
-      "sourcePort": "out0",
-      "target": "ab7b940bab",
-      "points": [
-        {
-          "x": 397,
-          "y": 170
-        },
-        {
-          "x": 600,
-          "y": 19
+          "x": 565,
+          "y": 14
         }
       ]
     }

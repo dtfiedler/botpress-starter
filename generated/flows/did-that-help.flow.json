@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "catchAll": {},
-  "startNode": "node-cb84",
+  "startNode": "intro-node",
   "nodes": [
     {
       "id": "skill-639e23",
@@ -34,7 +34,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-XL2BR2"
+        "say #!builtin_text-7jDUAU"
       ],
       "onReceive": []
     },
@@ -44,18 +44,18 @@
       "next": [
         {
           "condition": "true",
-          "node": "main.flow.json"
+          "node": "END"
         }
       ],
       "onEnter": [
         "incrementHelpufulResponse {}",
-        "say #!builtin_text-b0tuDC"
+        "say #!builtin_text-QYIij9"
       ],
       "onReceive": []
     },
     {
       "id": "b268712723",
-      "name": "node-cb84",
+      "name": "intro-node",
       "next": [
         {
           "condition": "true",

@@ -2,62 +2,34 @@
   "version": "0.1",
   "catchAll": {
     "onReceive": null,
-    "next": [
-      {
-        "condition": "event.nlu.intent.is('forget')",
-        "node": "forget-my-name"
-      }
-    ]
+    "next": []
   },
   "startNode": "entry",
   "nodes": [
     {
       "id": "307949a7c3",
       "name": "entry",
-      "onEnter": [
-        "trackNewConversation {}"
-      ],
+      "onEnter": [],
       "onReceive": null,
       "next": [
         {
           "condition": "event.nlu.intent.is('hello')",
-          "node": "node-8aed"
+          "node": "node-b616"
         },
         {
           "condition": "true",
-          "node": "node-ed71"
+          "node": ""
         }
       ]
     },
     {
-      "id": "1f6ca994ed",
-      "name": "node-ed71",
-      "next": [
-        {
-          "condition": "true",
-          "node": "live-agent.flow.json"
-        }
-      ],
+      "id": "95e15d1c13",
+      "name": "node-b616",
+      "next": [],
       "onEnter": [
-        "say #!builtin_text-apzmAz"
+        "say #!builtin_text-WLwHV~"
       ],
       "onReceive": null
-    },
-    {
-      "id": "ab7b940bab",
-      "name": "node-8aed",
-      "next": [
-        {
-          "condition": "true",
-          "node": "entry"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-WtxSpy",
-        "say #!builtin_text-3ZOzhE",
-        "say #!builtin_carousel-IDFFDU"
-      ],
-      "onReceive": []
     }
   ]
 }
