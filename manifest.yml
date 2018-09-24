@@ -1,13 +1,13 @@
 ---
 applications:
-- name: remote-clinical-bot-test       # CHANGE THIS TO WHATEVER NAME YOU WANT TO GIVE THE BOT
+- name: botpress-starter       # CHANGE THIS TO WHATEVER NAME YOU WANT TO GIVE THE BOT
   buildpack: nodejs_buildpack
   instances: 1
   memory: 512M
   env:
     BOTPRESS_PASSWORD: password
     BOTPRESS_PORT: 8080
-    BOTPRESS_URL: https://remote-clinical-bot-test.run.aws-usw02-pr.ice.predix.io    #UPDATE THIS TO WHATEVER THE URL OF THE BOT IS! USED IN BOTFILE.JS
+    BOTPRESS_URL: https://botpress-starter.run.aws-usw02-pr.ice.predix.io    #UPDATE THIS TO WHATEVER THE URL OF THE BOT IS! USED IN BOTFILE.JS
     NODE_ENV: production
     DATABASE: postgres
     DATABASE_URL: postgres://umnfwq36o4qua5uj:2kghjikoee6gqa2vl18ofp39c@db-2413f831-09a3-4be1-b665-00b5f866c1d4.c7uxaqxgfov3.us-west-2.rds.amazonaws.com:5432/botpress_test
