@@ -70,5 +70,23 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-09-19T15:13:06.819Z"
+  },
+  {
+    "id": "builtin_text-l41sWM",
+    "formData": {
+      "text": "I'm sorry I don't understand.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-20T13:45:44.399Z"
+  },
+  {
+    "id": "builtin_text-d4QnhY",
+    "formData": {
+      "text": "Okay. If you would like to speak to an agent, type 'AGENT' or 'HUMAN' at any time.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-24T17:54:44.205Z"
   }
 ]

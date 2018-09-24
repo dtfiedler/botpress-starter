@@ -106,9 +106,7 @@
           "node": "end-session"
         }
       ],
-      "onEnter": [
-        "say #!builtin_text-vbSQvm"
-      ],
+      "onEnter": [],
       "onReceive": null
     },
     {
