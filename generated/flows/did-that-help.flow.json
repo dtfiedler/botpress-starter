@@ -30,13 +30,13 @@
       "next": [
         {
           "condition": "true",
-          "node": "live-agent.flow.json"
+          "node": "END"
         }
       ],
       "onEnter": [
         "say #!builtin_text-7jDUAU"
       ],
-      "onReceive": []
+      "onReceive": null
     },
     {
       "id": "9915df9a4b",
@@ -51,7 +51,7 @@
         "incrementHelpufulResponse {}",
         "say #!builtin_text-QYIij9"
       ],
-      "onReceive": []
+      "onReceive": null
     },
     {
       "id": "b268712723",

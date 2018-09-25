@@ -7,7 +7,7 @@
       "id": "4b6f2b2461",
       "name": "entry",
       "onEnter": [
-        "say #!builtin_text-q5uWte"
+        "say #!builtin_text-m_c3wI"
       ],
       "onReceive": null,
       "next": [
@@ -79,7 +79,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-mTMw_l"
+        "say #!builtin_text-rDgWOi"
       ],
       "onReceive": null
     },
@@ -93,7 +93,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-Ll21YV"
+        "say #!builtin_text-F2vYaE"
       ],
       "onReceive": null
     },
@@ -106,7 +106,9 @@
           "node": "end-session"
         }
       ],
-      "onEnter": [],
+      "onEnter": [
+        "say #!builtin_text-Aq1Vlh"
+      ],
       "onReceive": null
     },
     {

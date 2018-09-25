@@ -13,12 +13,48 @@
       "onReceive": null,
       "next": [
         {
-          "condition": "event.nlu.intent.is('hello')",
-          "node": "node-b616"
+          "condition": "event.nlu.intent.is('shipment-time')",
+          "node": "node-0268"
         },
         {
-          "condition": "true",
-          "node": ""
+          "condition": "event.nlu.intent.is('hello')",
+          "node": "node-f08d"
+        },
+        {
+          "condition": "event.nlu.intent.is('live-agent')",
+          "node": "live-agent.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('troubleshooting')",
+          "node": "topics/troubleshooting-topic.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('education')",
+          "node": "topics/education-topic.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('purchase')",
+          "node": "topics/purchase-topic.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('accessories')",
+          "node": "topics/accessories.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('screen-sharing')",
+          "node": "topics/screen_sharing.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('shipment_time')",
+          "node": "topics/shipment_time-topic.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('installation')",
+          "node": "topics/get_started-topic.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.is('support')",
+          "node": "topics/support.flow.json"
         }
       ]
     },
@@ -27,7 +63,34 @@
       "name": "node-b616",
       "next": [],
       "onEnter": [
-        "say #!builtin_text-8Q5e22"
+        "say #!builtin_text-l41sWM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "12d24caef0",
+      "name": "node-0268",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-PWJn5C"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ad197a7971",
+      "name": "reimbursement-response",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-O7GCM0"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "bd2967593c",
+      "name": "node-f08d",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-DCxo9x"
       ],
       "onReceive": null
     }
