@@ -7,7 +7,7 @@
       "id": "4b6f2b2461",
       "name": "entry",
       "onEnter": [
-        "say #!builtin_text-m_c3wI"
+        "say #!builtin_text-q5uWte"
       ],
       "onReceive": null,
       "next": [
@@ -25,14 +25,14 @@
       "flow": "skills/choice-56f516.flow.json",
       "next": [
         {
-          "caption": "User picked [no]",
-          "condition": "state['skill-choice-ret'] == \"no\"",
-          "node": "node-4fb7"
-        },
-        {
           "caption": "User picked [yes]",
           "condition": "state['skill-choice-ret'] == \"yes\"",
           "node": "sf-liveagent-92d830"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "node-4fb7"
         },
         {
           "caption": "On failure",
@@ -79,7 +79,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-rDgWOi"
+        "say #!builtin_text-mTMw_l"
       ],
       "onReceive": null
     },
@@ -93,7 +93,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-F2vYaE"
+        "say #!builtin_text-Ll21YV"
       ],
       "onReceive": null
     },
@@ -106,9 +106,7 @@
           "node": "end-session"
         }
       ],
-      "onEnter": [
-        "say #!builtin_text-Aq1Vlh"
-      ],
+      "onEnter": [],
       "onReceive": null
     },
     {

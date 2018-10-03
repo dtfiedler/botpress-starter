@@ -17,5 +17,24 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-09-25T14:18:23.844Z"
+  },
+  {
+    "id": "builtin_single-choice-Cdj8c7",
+    "formData": {
+      "text": "Would you like to speak to a representative?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "yes"
+        },
+        {
+          "title": "No",
+          "value": "no"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-03T15:43:19.345Z"
   }
 ]

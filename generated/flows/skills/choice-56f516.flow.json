@@ -2,7 +2,7 @@
   "version": "0.1",
   "startNode": "entry",
   "skillData": {
-    "contentId": "builtin_single-choice-DqtkxF",
+    "contentId": "builtin_single-choice-Cdj8c7",
     "keywords": {
       "yes": [
         "yes",
@@ -19,7 +19,7 @@
     {
       "name": "entry",
       "onEnter": [
-        "say #!builtin_single-choice-DqtkxF {\"skill\":\"choice\"}"
+        "say #!builtin_single-choice-Cdj8c7 {\"skill\":\"choice\"}"
       ],
       "next": [
         {
@@ -27,13 +27,13 @@
           "node": "parse"
         }
       ],
-      "id": "492174",
+      "id": "310669",
       "onReceive": null
     },
     {
       "name": "parse",
       "onReceive": [
-        "__skill-choice-parse {\"contentId\":\"builtin_single-choice-DqtkxF\",\"keywords\":{\"yes\":[\"yes\",\"Yes\"],\"no\":[\"no\",\"No\"]},\"config\":{}}"
+        "__skill-choice-parse {\"contentId\":\"builtin_single-choice-Cdj8c7\",\"keywords\":{\"yes\":[\"yes\",\"Yes\"],\"no\":[\"no\",\"No\"]},\"config\":{}}"
       ],
       "next": [
         {
@@ -45,7 +45,7 @@
           "node": "invalid"
         }
       ],
-      "id": "503813",
+      "id": "452021",
       "onEnter": []
     },
     {
@@ -63,13 +63,13 @@
           "node": "#"
         }
       ],
-      "id": "576588",
+      "id": "216282",
       "onReceive": null
     },
     {
       "name": "sorry",
       "onEnter": [
-        "say #!builtin_single-choice-DqtkxF {\"skill\":\"choice\"}"
+        "say #!builtin_single-choice-Cdj8c7 {\"skill\":\"choice\"}"
       ],
       "next": [
         {
@@ -77,7 +77,7 @@
           "node": "parse"
         }
       ],
-      "id": "746528",
+      "id": "278221",
       "onReceive": null
     }
   ]
